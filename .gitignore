@@ -1,0 +1,61 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.log
+*.sqlite3
+*.pyo
+
+# Django
+*.db
+db.sqlite3
+media/
+staticfiles/
+.env
+
+# Environment
+env/
+venv/
+ENV/
+.venv/
+.Python
+
+# VS Code / IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Pip
+pip-log.txt
+
+# Migrations (optional — only ignore if you're not sharing them)
+# ** Be cautious! Do not ignore if you want to keep migration history.
+# */migrations/*.pyc
+# */migrations/__pycache__/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+
+# Test output
+.junit/
+*.cover
+
+# Compiled translations
+*.mo
+
+# Docker
+*.pid
+
+# Celery
+celerybeat-schedule
