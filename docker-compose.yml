@@ -6,9 +6,9 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data/
     environment:
-      POSTGRES_DB: mydb
-      POSTGRES_USER: myuser
-      POSTGRES_PASSWORD: mypassword
+      POSTGRES_DB: jk_database
+      POSTGRES_USER: jk_project
+      POSTGRES_PASSWORD: "12"
     ports:
       - "5432:5432"
 
@@ -24,7 +24,7 @@ services:
     environment:
       DB_NAME: jk_database
       DB_USER: jk_project
-      DB_PASSWORD: 12
+      DB_PASSWORD: "12"
       DB_HOST: db
       DB_PORT: 5432
 
