@@ -97,7 +97,7 @@ DATABASES = {
         'NAME': 'jk_database',  # Main DB
         'USER': 'jk_project',
         'PASSWORD': '12',
-        'HOST': 'db',
+        'HOST': 'localhost',
 
         'TEST': {
             'NAME': 'test_jk',  # Use this manually created DB for tests
